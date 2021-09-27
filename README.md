@@ -52,10 +52,9 @@ Dado que estas dos aplicaciones utilizan la misma tabla para realizar un seguimi
     create extension pg_trgm;
 
 -- (esto es necesario para almacenar metadatos k / v adicionales)
+    create extension hstore;
 
-create extension hstore;
-
--- exit psql
+-- salir de psql
     \q
 
 #Configurar el repositorio de software ChirpStack
